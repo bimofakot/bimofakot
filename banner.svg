@@ -1,0 +1,61 @@
+<svg fill="none" viewBox="0 0 850 180" width="100%" height="180" xmlns="http://w3.org">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://w3.org">
+      <style>
+        @keyframes gradient {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        @keyframes typing {
+          0%, 10% { width: 0; }
+          45%, 85% { width: 100%; }
+          95%, 100% { width: 0; }
+        }
+        @keyframes blink {
+          50% { border-color: transparent; }
+        }
+        .card {
+          width: 100%;
+          height: 170px;
+          border-radius: 14px;
+          background: linear-gradient(-45deg, #1e1e2e, #963129, #2b1d28, #181825);
+          background-size: 300% 300%;
+          animation: gradient 8s ease infinite;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          color: #ffffff;
+          box-sizing: border-box;
+          padding: 20px;
+        }
+        h1 {
+          margin: 0 0 10px 0;
+          font-size: 32px;
+          letter-spacing: 0.5px;
+        }
+        .typewriter-wrap {
+          display: inline-block;
+        }
+        .typewriter {
+          font-family: "Fira Code", monospace;
+          font-size: 15px;
+          color: #f5c2e7;
+          overflow: hidden;
+          border-right: 2px solid #f5c2e7;
+          white-space: nowrap;
+          margin: 0 auto;
+          animation: typing 6s steps(42, end) infinite, blink 0.75s step-end infinite;
+        }
+      </style>
+      <div class="card">
+        <h1>Bimo Praharbiyanto 👋</h1>
+        <div class="typewriter-wrap">
+          <div class="typewriter">Web &amp; Android Builder • React • Astro • Firebase</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
