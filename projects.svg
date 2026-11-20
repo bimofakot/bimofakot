@@ -1,0 +1,53 @@
+<svg viewBox="0 0 850 250" width="100%" height="250" xmlns="http://w3.org">
+  <style>
+    .card { fill: #181825; stroke: #313244; stroke-width: 1.5; }
+    .title { fill: #89b4fa; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; font-weight: 700; }
+    .desc { fill: #cdd6f4; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; }
+    .tag { fill: #1e1e2e; stroke: #45475a; stroke-width: 1; }
+    .tag-text { fill: #a6adc8; font-family: monospace; font-size: 11px; }
+  </style>
+
+  <!-- Kartu 1: Booking-Demo -->
+  <g transform="translate(0, 5)">
+    <rect class="card" x="2" y="2" width="412" height="110" rx="12" />
+    <text class="title" x="20" y="32">🏸 Booking-Demo</text>
+    <text class="desc" x="20" y="56">Demo sistem booking lapangan badminton (data mock)</text>
+    <rect class="tag" x="20" y="74" width="84" height="22" rx="6" />
+    <text class="tag-text" x="62" y="89" text-anchor="middle">TypeScript</text>
+    <rect class="tag" x="112" y="74" width="54" height="22" rx="6" />
+    <text class="tag-text" x="139" y="89" text-anchor="middle">Web</text>
+  </g>
+
+  <!-- Kartu 2: setoran -->
+  <g transform="translate(432, 5)">
+    <rect class="card" x="2" y="2" width="412" height="110" rx="12" />
+    <text class="title" x="20" y="32">💰 setoran</text>
+    <text class="desc" x="20" y="56">Pencatat keuangan pribadi, sinkron real-time &amp; grafik</text>
+    <rect class="tag" x="20" y="74" width="84" height="22" rx="6" />
+    <text class="tag-text" x="62" y="89" text-anchor="middle">TypeScript</text>
+    <rect class="tag" x="112" y="74" width="72" height="22" rx="6" />
+    <text class="tag-text" x="148" y="89" text-anchor="middle">Firebase</text>
+  </g>
+
+  <!-- Kartu 3: AdHunter -->
+  <g transform="translate(0, 130)">
+    <rect class="card" x="2" y="2" width="412" height="110" rx="12" />
+    <text class="title" x="20" y="32">🛡️ AdHunter</text>
+    <text class="desc" x="20" y="56">Pemindai izin &amp; aplikasi Android (jalan full offline)</text>
+    <rect class="tag" x="20" y="74" width="62" height="22" rx="6" />
+    <text class="tag-text" x="51" y="89" text-anchor="middle">Kotlin</text>
+    <rect class="tag" x="90" y="74" width="68" height="22" rx="6" />
+    <text class="tag-text" x="124" y="89" text-anchor="middle">Android</text>
+  </g>
+
+  <!-- Kartu 4: streamstore -->
+  <g transform="translate(432, 130)">
+    <rect class="card" x="2" y="2" width="412" height="110" rx="12" />
+    <text class="title" x="20" y="32">🎬 streamstore</text>
+    <text class="desc" x="20" y="56">Landing page produk digital, sat-set tanpa build step</text>
+    <rect class="tag" x="20" y="74" width="54" height="22" rx="6" />
+    <text class="tag-text" x="47" y="89" text-anchor="middle">HTML</text>
+    <rect class="tag" x="82" y="74" width="48" height="22" rx="6" />
+    <text class="tag-text" x="106" y="89" text-anchor="middle">CSS</text>
+  </g>
+</svg>
