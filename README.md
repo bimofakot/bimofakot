@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://githubusercontent.com" width="100%" alt="Bimo Praharbiyanto Banner" />
+  <img src="./banner.svg" width="100%" alt="Bimo Praharbiyanto Banner" />
 </div>
 
 <br/>
