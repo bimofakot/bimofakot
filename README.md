@@ -1,20 +1,54 @@
-# Bimo
+<!-- Banner Gelombang Animasi (Capsule Render) -->
+<div align="center">
+  <img src="https://vercel.app" width="100%" />
+</div>
 
-Membuat web sederhana yang bisa dipakai — dari booking lapangan sampai
-catatan keuangan. Kebanyakan dibangun pakai React atau Astro, datanya di
-Firebase, dan CI/CD lewat GitHub Actions.
+<!-- Animasi Teks Mengetik (Readme Typing SVG) -->
+<div align="center">
+  <a href="https://massbim.my.id">
+    <img src="https://demolab.com" alt="Typing SVG" />
+  </a>
+</div>
 
-## Yang sudah jadi
+<br/>
 
-- **Booking-Demo** — demo sistem booking lapangan badminton, pakai data mock.
-- **streamstore** — landing page statis buat demo tampilan produk digital.
-- **setoran** — pencatat keuangan pribadi, sinkron real-time, ada grafiknya.
-- **AdHunter** — aplikasi Android buat memindai izin aplikasi lain, jalan offline.
+## ⚡ Tech Stack & Tools
 
-Semua repo publik pakai lisensi MIT — mau dipelajari atau dimodifikasi,
-silakan.
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev" />
+  </a>
+</div>
 
-## Di luar ngoding
+<br/>
 
-Kadang nulis soal web di [blog saya](https://blog.massbim.my.id) — catatan
-teknis, hal yang lagi dipelajari, dan proses di balik beberapa proyek di atas.
+## 🚀 Project yang Udah Jadi
+
+| Project | Deskripsi | Stack |
+| :--- | :--- | :--- |
+| **[Booking-Demo](https://github.com)** | Demo sistem booking lapangan badminton (mode data mock) | `TypeScript` `Web` |
+| **[streamstore](https://github.com)** | Landing page statis buat pamer produk digital, sat-set tanpa build step | `HTML` `CSS` |
+| **[setoran](https://github.com)** | Pencatat keuangan pribadi dengan sinkronisasi real-time & grafik | `TypeScript` `Firebase` |
+| **[AdHunter](https://github.com)** | Pemindai izin & pemantau aplikasi Android (berjalan full offline) | `Kotlin` `Android` |
+
+> Semua repo publik di sini pakai lisensi **MIT** — mau di-fork, dikulik, atau dimodifikasi buat belajar, silakan!
+
+<br/>
+
+## 📊 Aktivitas Ngoding
+
+<div align="center">
+  <img height="165" src="https://vercel.app" />
+  <img height="165" src="https://vercel.app" />
+</div>
+
+<br/>
+
+## ✍️ Di Luar Jam Ngoding
+
+Kadang nulis catatan teknis, ngoprek sistem, dan cerita di balik layar bikin project di atas lewat **[blog.massbim.my.id](https://massbim.my.id)**.
+
+<!-- Footer Gelombang -->
+<div align="center">
+  <img src="https://vercel.app" width="100%" />
+</div>
