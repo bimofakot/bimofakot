@@ -1,61 +1,67 @@
-<svg fill="none" viewBox="0 0 850 180" width="100%" height="180" xmlns="http://w3.org">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://w3.org">
-      <style>
-        @keyframes gradient {
-          0% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
-          100% { background-position: 0% 50%; }
-        }
-        @keyframes typing {
-          0%, 10% { width: 0; }
-          45%, 85% { width: 100%; }
-          95%, 100% { width: 0; }
-        }
-        @keyframes blink {
-          50% { border-color: transparent; }
-        }
-        .card {
-          width: 100%;
-          height: 170px;
-          border-radius: 14px;
-          background: linear-gradient(-45deg, #1e1e2e, #963129, #2b1d28, #181825);
-          background-size: 300% 300%;
-          animation: gradient 8s ease infinite;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-          color: #ffffff;
-          box-sizing: border-box;
-          padding: 20px;
-        }
-        h1 {
-          margin: 0 0 10px 0;
-          font-size: 32px;
-          letter-spacing: 0.5px;
-        }
-        .typewriter-wrap {
-          display: inline-block;
-        }
-        .typewriter {
-          font-family: "Fira Code", monospace;
-          font-size: 15px;
-          color: #f5c2e7;
-          overflow: hidden;
-          border-right: 2px solid #f5c2e7;
-          white-space: nowrap;
-          margin: 0 auto;
-          animation: typing 6s steps(42, end) infinite, blink 0.75s step-end infinite;
-        }
-      </style>
-      <div class="card">
-        <h1>Bimo Praharbiyanto 👋</h1>
-        <div class="typewriter-wrap">
-          <div class="typewriter">Web &amp; Android Builder • React • Astro • Firebase</div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+<svg viewBox="0 0 850 220" width="100%" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradien Latar Belakang Animasi -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e">
+        <animate attributeName="stop-color" values="#1e1e2e;#2b1824;#181825;#1e1e2e" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#963129">
+        <animate attributeName="stop-color" values="#963129;#5e2129;#963129" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#181825">
+        <animate attributeName="stop-color" values="#181825;#1e1e2e;#2b1824;#181825" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Clip Path untuk Efek Teks Mengetik -->
+    <clipPath id="typingClip">
+      <rect x="215" y="102" width="0" height="28">
+        <animate attributeName="width" values="0;425;425;0" keyTimes="0;0.45;0.85;1" dur="6s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Kotak Kartu Utama -->
+  <rect x="0" y="0" width="850" height="220" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Lingkaran Orbit Dekoratif Berdenyut -->
+  <circle cx="770" cy="45" r="90" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="2">
+    <animate attributeName="r" values="85;98;85" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="80" cy="180" r="70" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2">
+    <animate attributeName="r" values="65;78;65" dur="6s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Judul Nama -->
+  <text x="425" y="78" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="700" letter-spacing="0.5">
+    Bimo Praharbiyanto 👋
+  </text>
+
+  <!-- Subjudul dengan Animasi Ketik -->
+  <g clip-path="url(#typingClip)">
+    <text x="218" y="122" fill="#f5c2e7" font-family="'Fira Code', Consolas, monospace" font-size="16" font-weight="500">
+      Web &amp; Android Builder • React • Astro • Firebase
+    </text>
+  </g>
+
+  <!-- Deretan Lencana Tech Stack Bawaan (Anti-Blokir) -->
+  <g transform="translate(132, 154)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">
+    <rect x="0" y="0" width="72" height="28" rx="8" fill="#11111b" stroke="#61dafb" stroke-width="1"/>
+    <text x="36" y="18" text-anchor="middle" fill="#61dafb">React</text>
+
+    <rect x="82" y="0" width="70" height="28" rx="8" fill="#11111b" stroke="#ff5d01" stroke-width="1"/>
+    <text x="117" y="18" text-anchor="middle" fill="#ff5d01">Astro</text>
+
+    <rect x="162" y="0" width="96" height="28" rx="8" fill="#11111b" stroke="#3178c6" stroke-width="1"/>
+    <text x="210" y="18" text-anchor="middle" fill="#68a0e8">TypeScript</text>
+
+    <rect x="268" y="0" width="84" height="28" rx="8" fill="#11111b" stroke="#ffca28" stroke-width="1"/>
+    <text x="310" y="18" text-anchor="middle" fill="#ffca28">Firebase</text>
+
+    <rect x="362" y="0" width="72" height="28" rx="8" fill="#11111b" stroke="#a97bff" stroke-width="1"/>
+    <text x="398" y="18" text-anchor="middle" fill="#a97bff">Kotlin</text>
+
+    <rect x="444" y="0" width="132" height="28" rx="8" fill="#11111b" stroke="#58a6ff" stroke-width="1"/>
+    <text x="510" y="18" text-anchor="middle" fill="#58a6ff">GitHub Actions</text>
+  </g>
 </svg>
