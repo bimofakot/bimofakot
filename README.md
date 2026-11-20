@@ -1,19 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="Bimo Praharbiyanto Banner" />
-</div>
-
-<br/>
-
-## ⚡ Tech Stack & Tools
-
-<div align="center">
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
+  <img src="https://githubusercontent.com" width="100%" alt="Bimo Praharbiyanto Banner" />
 </div>
 
 <br/>
