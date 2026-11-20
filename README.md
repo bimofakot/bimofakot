@@ -1,13 +1,5 @@
-<!-- Banner Gelombang Animasi (Capsule Render) -->
 <div align="center">
-  <img src="https://vercel.app" width="100%" />
-</div>
-
-<!-- Animasi Teks Mengetik (Readme Typing SVG) -->
-<div align="center">
-  <a href="https://massbim.my.id">
-    <img src="https://demolab.com" alt="Typing SVG" />
-  </a>
+  <img src="./banner.svg" width="100%" alt="Bimo Praharbiyanto Banner" />
 </div>
 
 <br/>
@@ -15,9 +7,13 @@
 ## ⚡ Tech Stack & Tools
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev" />
-  </a>
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
 </div>
 
 <br/>
@@ -35,20 +31,6 @@
 
 <br/>
 
-## 📊 Aktivitas Ngoding
-
-<div align="center">
-  <img height="165" src="https://vercel.app" />
-  <img height="165" src="https://vercel.app" />
-</div>
-
-<br/>
-
 ## ✍️ Di Luar Jam Ngoding
 
 Kadang nulis catatan teknis, ngoprek sistem, dan cerita di balik layar bikin project di atas lewat **[blog.massbim.my.id](https://massbim.my.id)**.
-
-<!-- Footer Gelombang -->
-<div align="center">
-  <img src="https://vercel.app" width="100%" />
-</div>
